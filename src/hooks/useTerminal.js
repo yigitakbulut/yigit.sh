@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
-import { commands } from '../lib/commands';
+import { commands } from '../commands/index';
 
 export default function useTerminal() {
   const [input, setInput] = useState('');
