@@ -1,8 +1,8 @@
-'use client'
+"use client";
 // Home.js
-import React from 'react';
-import Terminal from '../components/Terminal';
-import TerminalProvider from '../hooks/TerminalProvider';
+import React from "react";
+import Terminal from "../components/Terminal";
+import TerminalProvider from "../hooks/TerminalProvider";
 
 export default function Home() {
   return (
@@ -12,4 +12,4 @@ export default function Home() {
       </TerminalProvider>
     </main>
   );
-} 
+}
